@@ -10,8 +10,7 @@ namespace Exercise3._2._4
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Yaroslav";
+            string MyName = "Yaroslav";
             Console.WriteLine(MyName);
             Console.ReadKey();
         }
