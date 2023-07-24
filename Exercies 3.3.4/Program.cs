@@ -10,8 +10,15 @@ namespace Exercise3._2._4
     {
         static void Main(string[] args)
         {
-            string MyName = "Yaroslav";
-            Console.WriteLine(MyName);
+            string Name = "Jane";
+            byte Age = 27;
+            bool Pet = true;
+            double Foot = 37.5;
+
+            Console.WriteLine("My name is " + Name);
+            Console.WriteLine("MyAge " + Age);
+            Console.WriteLine("Do I have a pet? " + Pet);
+            Console.WriteLine("My shoe size is " + Foot);
             Console.ReadKey();
         }
     }
